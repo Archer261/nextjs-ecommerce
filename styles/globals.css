@@ -29,7 +29,6 @@ a {
   padding: 10px;
   background: linear-gradient(to bottom, transparent, mistyrose), url('../assets/bgImg.png');
   background-size: cover;
-  height: 100vh;
   z-index: 0;
 }
 
