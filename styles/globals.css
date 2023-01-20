@@ -6,7 +6,6 @@ body,
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
-
 }
 
 ::-webkit-scrollbar {
@@ -22,12 +21,27 @@ a {
   max-width: 1400px;
   margin: auto;
   width: 100%;
+  z-index: 9;
 
 }
 
 .layout {
   padding: 10px;
+  background: linear-gradient(to bottom, transparent, mistyrose), url('../assets/bgImg.png');
+  background-size: cover;
+  height: 100vh;
+  z-index: 0;
 }
+
+/* .layout-filter {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  z-index: 0;
+
+} */
 
 .navbar-container {
   display: flex;
@@ -160,7 +174,7 @@ span.text-red {
 
 }
 
-.hero-banner-container .beats-solo {
+.hero-banner-container .pocket-leggings {
   font-size: 20px;
 }
 
@@ -654,7 +668,8 @@ span.text-red {
 
 .success-wrapper,
 .cancel-wrapper {
-  background-color: white;
+  /* background-color: white; */
+  max-height: 100vh;
   min-height: 60vh;
 
 }
