@@ -15,8 +15,7 @@ const HeroBanner = ({ heroBanner }) => {
                         <button type='button' className=''>{heroBanner.buttonText}</button>
                     </Link>
                     <div className='desc'>
-                        <h5>Description</h5>
-                        <p>{heroBanner.desc}</p>
+                        <h5>{heroBanner.desc}</h5>
                     </div>
                 </div>
             </div>
