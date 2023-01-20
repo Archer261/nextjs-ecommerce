@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='footer-container'>
             <p>
-                {moment().year()} L-Active All rights reserved
+                {moment().year()} KJ-Active All rights reserved
             </p>
             <p className='icons'>
                 <RiInstagramFill />
