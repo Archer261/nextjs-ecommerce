@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='navbar-container'>
             <p className='logo'>
                 <Link href={`/`}>
-                    KJ-Active Wear
+                    KJ-Prints Wear
                 </Link>
             </p>
 
