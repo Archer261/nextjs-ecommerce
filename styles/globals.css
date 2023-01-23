@@ -27,7 +27,7 @@ a {
 
 .layout {
   padding: 10px;
-  background: linear-gradient(to bottom, transparent, mistyrose), url('../assets/bgImg.png');
+  background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)), url('../assets/bgImg.png');
   background-size: cover;
   z-index: 0;
 }
@@ -256,7 +256,7 @@ span.text-red {
 
 .footer-banner-container {
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #027be3;
   border-radius: 15px;
   position: relative;
   height: 400px;
